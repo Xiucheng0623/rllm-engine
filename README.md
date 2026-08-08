@@ -42,7 +42,7 @@
 ### 1. 安装
 
 ```bash
-pip install rllm-engine
+pip install git+https://github.com/Xiucheng0623/rllm-engine.git
 ```
 
 ### 2. 下载模型 (选一个)
