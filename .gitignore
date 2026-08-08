@@ -41,6 +41,13 @@ _v3_*.log
 _v21_*.log
 _test_*.log
 
+# ===== 备份 / 临时文件 =====
+*.bak
+*.bak_*
+*.tmp
+*.tmp_*
+cache/
+
 # ===== 系统 / 编辑器 =====
 .DS_Store
 Thumbs.db
