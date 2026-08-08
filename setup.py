@@ -26,7 +26,7 @@ setup(
     if __import__("os").path.exists("README.md")
     else __doc__,
     long_description_content_type="text/markdown",
-    url="https://github.com/rllm/rllm-engine",
+    url="https://github.com/rllm-org/rllm-engine",
     packages=find_packages(
         include=[
             "rllm_engine",
@@ -75,6 +75,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
+            "rllm-demo=rllm_engine.demo:main",
             "rllm-chat=rllm_chat:main",
             "rllm-manager=rllm_manager:main",
         ],
