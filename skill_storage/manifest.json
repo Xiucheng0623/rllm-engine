@@ -1,0 +1,6 @@
+{
+  "disk_offload_infer": {
+    "name": "磁盘分页低内存大模型推理技能",
+    "version": "1.0.0-DiskOffload"
+  }
+}

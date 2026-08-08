@@ -1,0 +1,14 @@
+{
+  "best_strategy_sig": "143d47555747",
+  "best_score": 0.0,
+  "evo_count": 24,
+  "best_config": {
+    "prefetch_layers_ahead": 4,
+    "prefetch_threads": 6,
+    "quantization_bits": 4,
+    "kv_spill_threshold_mb": 256,
+    "shard_size_mb": 2048,
+    "cpu_buffer_gb": 2.0
+  },
+  "updated_ts": 1786081047.0869308
+}

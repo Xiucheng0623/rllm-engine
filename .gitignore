@@ -1,0 +1,48 @@
+# ===== Python / 虚拟环境 =====
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+build/
+dist/
+
+# ===== 模型权重 / 缓存（大体积，不入库） =====
+hf_cache/
+model_shards/
+rllm_model_shards/
+offload_temp/
+rllm_offload_temp/
+output_dataset/
+rllm_output_dataset/
+input_data/
+
+# ===== 运行时日志 =====
+logs/
+*.log
+
+# ===== 调试 / 临时脚本（开发过程中的辅助文件，非交付代码） =====
+_*.py
+_api_extract.txt
+_inspect_report.txt
+_check_pt_keys.py
+_diag_*.py
+_verify_*.py
+_test_*.py
+_extract_*.py
+_download_*.py
+_fix_*.py
+_implement_*.py
+_inspect_*.py
+_clean*.py
+_evolution_*.log
+_v3_*.log
+_v21_*.log
+_test_*.log
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+{
+  "prefetch_layers_ahead": 3,
+  "prefetch_threads": 4,
+  "quantization_bits": 4,
+  "kv_spill_threshold_mb": 256,
+  "shard_size_mb": 2048,
+  "cpu_buffer_gb": 2.0
+}

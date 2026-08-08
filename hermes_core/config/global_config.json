@@ -1,0 +1,59 @@
+{
+  "disk_offload": {
+    "model_shards_dir": "D:\\AI_RLLM\\rllm_model_shards",
+    "offload_temp_dir": "D:\\AI_RLLM\\rllm_offload_temp",
+    "kv_spill_threshold_mb": 512,
+    "cpu_buffer_limit_gb": 2.0,
+    "prefetch_layers_ahead": 2,
+    "quantization_bits": 8,
+    "shard_size_mb": 512,
+    "enable_mmap": true,
+    "prefetch_threads": 4
+  },
+  "memory_limit": {
+    "system_ram_limit_gb": 32.0,
+    "cpu_infer_buffer_gb": 2.0,
+    "gpu_vram_reserve_ratio": 0.15,
+    "force_swap_when_exceed": true,
+    "monitor_interval_ms": 100
+  },
+  "self_evolution": {
+    "enable_self_evo": true,
+    "latency_increase_threshold": 0.2,
+    "io_block_threshold_sec": 30.0,
+    "failure_rate_threshold": 0.005,
+    "min_rounds_before_evo": 10,
+    "tuning_params_space": {
+      "prefetch_layers_ahead": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prefetch_threads": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "quantization_bits": [
+        4,
+        8
+      ],
+      "kv_spill_threshold_mb": [
+        256,
+        512,
+        1024
+      ],
+      "shard_size_mb": [
+        256,
+        512,
+        1024
+      ]
+    },
+    "skill_archive_max": 100
+  },
+  "offline_mode": true,
+  "skill_storage_dir": "D:\\AI_RLLM\\skill_storage",
+  "current_best_strategy_id": "143d47555747"
+}

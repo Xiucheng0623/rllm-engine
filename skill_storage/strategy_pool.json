@@ -1,0 +1,556 @@
+{
+  "best_sig": "f264df422a1d",
+  "updated_ts": 1786112510.619377,
+  "records": [
+    {
+      "sig": "9ed35dd24428",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 512,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786058793.5344338,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 127.08830833435059,
+        "avg_throughput_tps": 18.616808530867985,
+        "avg_peak_memory_mb": 15027.0224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1771.58
+      },
+      "evo_round": 2,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "f264df422a1d",
+      "config": {
+        "prefetch_layers_ahead": 1,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 512,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786058793.6966894,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 96.63756688435872,
+        "avg_throughput_tps": 23.578290288870956,
+        "avg_peak_memory_mb": 15027.0224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 2268.03
+      },
+      "evo_round": 1,
+      "is_best": true,
+      "discard": false
+    },
+    {
+      "sig": "c01886aa2ba3",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 4,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 1024,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786071071.5881183,
+      "trigger": "forced_heuristic",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 0.0,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 0.0
+      },
+      "evo_round": 1,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "ec8c89154c0f",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 1024,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786076440.9877791,
+      "trigger": "forced_heuristic",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 0.0,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 0.0
+      },
+      "evo_round": 1,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "023e2c6c3978",
+      "config": {
+        "prefetch_layers_ahead": 1,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 1024,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786077964.3648636,
+      "trigger": "forced_heuristic",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 0.0,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 0.0
+      },
+      "evo_round": 1,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "6483c837fcca",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 1024,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786078305.4089105,
+      "trigger": "neighbor_heuristic",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 0.0,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 0.0
+      },
+      "evo_round": 1,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "b0deb69f0ac4",
+      "config": {
+        "prefetch_layers_ahead": 3,
+        "prefetch_threads": 4,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 2048,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786080761.3250675,
+      "trigger": "forced_heuristic",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 0.0,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 0.0
+      },
+      "evo_round": 1,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "143d47555747",
+      "config": {
+        "prefetch_layers_ahead": 4,
+        "prefetch_threads": 6,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 2048,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786081047.0829034,
+      "trigger": "forced_heuristic",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 0.0,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 0.0
+      },
+      "evo_round": 1,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "452d461c9f5c",
+      "config": {
+        "prefetch_layers_ahead": 3,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 512,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786106791.1652906,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 112.91082700093587,
+        "avg_throughput_tps": 18.909030590729902,
+        "avg_peak_memory_mb": 15027.0224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1800.94
+      },
+      "evo_round": 3,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "4f8967e04525",
+      "config": {
+        "prefetch_layers_ahead": 4,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 512,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786106813.3166316,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 110.87147394816081,
+        "avg_throughput_tps": 14.903218443240744,
+        "avg_peak_memory_mb": 15027.0224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1400.38
+      },
+      "evo_round": 4,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "36a33d84e481",
+      "config": {
+        "prefetch_layers_ahead": 4,
+        "prefetch_threads": 4,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 512,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786106836.9390435,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 229.415496190389,
+        "avg_throughput_tps": 17.40075274648525,
+        "avg_peak_memory_mb": 15027.0224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1648.95
+      },
+      "evo_round": 5,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "5fd9fbacc04f",
+      "config": {
+        "prefetch_layers_ahead": 3,
+        "prefetch_threads": 4,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 512,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786106859.9534645,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 121.43762906392415,
+        "avg_throughput_tps": 16.408365335907302,
+        "avg_peak_memory_mb": 15026.5224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1550.8
+      },
+      "evo_round": 6,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "82ac001078fa",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 4,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 512,
+        "shard_size_mb": 512,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786106882.8947222,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 99.17251269022624,
+        "avg_throughput_tps": 20.832983654575155,
+        "avg_peak_memory_mb": 15014.0224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1993.61
+      },
+      "evo_round": 7,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "c044055c05e1",
+      "config": {
+        "prefetch_layers_ahead": 1,
+        "prefetch_threads": 4,
+        "quantization_bits": 16,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786108024.6700315,
+      "trigger": "neighbor_failure",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 0.0,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 0.0
+      },
+      "evo_round": 1,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "2f928f6d3dc5",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 2,
+        "quantization_bits": 8,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786108915.8034158,
+      "trigger": "forced_failure",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 4122.08837890625,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 1.0,
+        "score": -900.0
+      },
+      "evo_round": 6,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "fe87b38e821a",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786109027.427288,
+      "trigger": "forced_failure",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 75.83737373352051,
+        "avg_throughput_tps": 19.229724870719362,
+        "avg_peak_memory_mb": 9813.9765625,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1885.51
+      },
+      "evo_round": 7,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "aca5bce93315",
+      "config": {
+        "prefetch_layers_ahead": 1,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786109053.3110957,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 72.6780891418457,
+        "avg_throughput_tps": 14.94821028137646,
+        "avg_peak_memory_mb": 15026.5224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1405.27
+      },
+      "evo_round": 3,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "160ab2d76f31",
+      "config": {
+        "prefetch_layers_ahead": 3,
+        "prefetch_threads": 2,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786109095.1837482,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 0.0,
+        "avg_throughput_tps": 0.0,
+        "avg_peak_memory_mb": 0.0,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 0.0
+      },
+      "evo_round": 5,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "54daa492e9db",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 4,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786112455.2288883,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 216.31550788879395,
+        "avg_throughput_tps": 11.471973736244982,
+        "avg_peak_memory_mb": 15022.0224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1056.25
+      },
+      "evo_round": 8,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "c55659e01d0b",
+      "config": {
+        "prefetch_layers_ahead": 1,
+        "prefetch_threads": 4,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786112471.86332,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 65.30483563741048,
+        "avg_throughput_tps": 16.76436803214578,
+        "avg_peak_memory_mb": 15014.0224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1587.08
+      },
+      "evo_round": 9,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "54757a637cfd",
+      "config": {
+        "prefetch_layers_ahead": 1,
+        "prefetch_threads": 6,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786112485.2368593,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 204.4046719868978,
+        "avg_throughput_tps": 14.28271972144905,
+        "avg_peak_memory_mb": 15006.5224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1337.6
+      },
+      "evo_round": 10,
+      "is_best": false,
+      "discard": false
+    },
+    {
+      "sig": "962245f39864",
+      "config": {
+        "prefetch_layers_ahead": 2,
+        "prefetch_threads": 6,
+        "quantization_bits": 4,
+        "kv_spill_threshold_mb": 256,
+        "shard_size_mb": 256,
+        "cpu_buffer_gb": 2.0
+      },
+      "created_ts": 1786112499.4475396,
+      "trigger": "neighbor_memory",
+      "performance": {
+        "samples": 0,
+        "avg_latency_ms": 54.17442321777344,
+        "avg_throughput_tps": 18.980696658055674,
+        "avg_peak_memory_mb": 15006.5224609375,
+        "avg_io_block_ms": 0.0,
+        "failure_rate": 0.0,
+        "score": 1808.9
+      },
+      "evo_round": 11,
+      "is_best": false,
+      "discard": false
+    }
+  ]
+}
